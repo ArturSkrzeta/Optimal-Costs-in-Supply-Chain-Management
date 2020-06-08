@@ -19,9 +19,9 @@
  
 <ul>
    <li>Second matrix shows the costs to get through the single route.</li>
-   <li>Going through route A1 costs 65</li>
-   <li>Going through route A2 costs 70 which is cheapet than going through B1</li>
-   <li>Comparison of costs is performed from root route (A1) till the final one(E5)</li>
+   <li>Going through the route A1 costs 65</li>
+   <li>Going through the route A2 costs 70 which is cheaper than going through B1</li>
+   <li>This kind of costs comparison is performed from root route (A1) till the final one(E5)</li>
 </ul>
 
             1          2         3         4        5
