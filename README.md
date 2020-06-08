@@ -1,8 +1,9 @@
 <ul>
-   <li>First matrix presents names of Routes</li>
-   <li>Supplies can arrive to F5</li>
-   <li>Starting point: A1</li>
-   <li>Finish point: F5</li>
+   <li>First matrix presents the names of Routes</li>
+   <li>Supplies starts from A1 and arrives to F5</li>
+   <li>There are 25 routes to get to the destination</li>
+   <li>Which route will be taken, we can decide upon the cost of going through.</li>
+   <li>For oue needs we can assume that</li>
 </ul>
 
             1         2        3        4       5
