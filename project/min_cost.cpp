@@ -2,7 +2,6 @@
 #include <string>
 #include <algorithm>
 using namespace std;
-
 #define M 5
 #define N 5
 
@@ -17,30 +16,24 @@ string routes[M][N] =
 
 void printPath(int i, int j, std::pair<int,int> path[M][N], int cost[M][N])
 {
-
     if (!i && !j) { //if i and j not 0
         cout << routes[i][j] << endl;
         routes[i][j] = "##";
         return;
     }
-
     printPath(path[i][j].first, path[i][j].second, path, cost);
     cout << routes[i][j] << endl;
     routes[i][j] = "##";
 }
 
 void printRoutes(){
-
     int m,n;
-
     cout << "Routes Matrix:" << endl;
-
     for(m=0; m<M; m++, cout << endl){
         for(n=0; n<N; n++){
             cout << routes[m][n] << "\t";
         }
     }
-
     return;
 }
 
@@ -77,48 +70,13 @@ int findMinCost(int cost[M][N])
         }
     }
     cout << "Optimal Path for Min Cost:" << endl;
-
     printPath(M - 1, N - 1, path, cost);
-
     cout << "" << endl;
     return T[M - 1][N - 1];
 }
 
 int main()
 {
-    /*
-
-    Routes costs:
-
-            1          2         3         4        5
-    -------------------------------------------------------
-    A   |   129   |   133   |    81   |   117   |    56
-    -------------------------------------------------------
-    B   |    76   |   105   |   123   |    89   |    90
-    -------------------------------------------------------
-    C   |    52   |    77   |   144   |    68   |   125
-    -------------------------------------------------------
-    D   |    51   |   130   |    94   |    59   |   130
-    -------------------------------------------------------
-    E   |   150   |   139   |    54   |    98   |   146
-
-
-    Routes names:
-
-            1         2        3        4       5
-    --------------------------------------------------
-    A   |   A1   |   A2   |   A3   |   A4   |   A5
-    --------------------------------------------------
-    B   |   B1   |   B2   |   B3   |   B4   |   B5
-    --------------------------------------------------
-    C   |   C1   |   C2   |   C3   |   C4   |   C5
-    --------------------------------------------------
-    D   |   D1   |   D2   |   D3   |   D4   |   E5
-    --------------------------------------------------
-    E   |   E1   |   E2   |   E3   |   E4   |   F5
-
-    */
-
     int cost[M][N] =
     {
         {65, 70, 144, 117, 56},
@@ -129,14 +87,9 @@ int main()
     };
 
     int minCost = findMinCost(cost);
-
     printRoutes();
     cout << "" << endl;
-
     cout << "The minimum cost: " << minCost << endl;
     cout << "" << endl;
-
-
-
     return 0;
 }
