@@ -1,6 +1,8 @@
 <ul>
+   <li>First matrix presents names of Routes</li>
+   <li>Supplies can arrive to F5</li>
    <li>Starting point: A1</li>
-   <li>Finisch point: F5</li>
+   <li>Finish point: F5</li>
 </ul>
 
             1         2        3        4       5
@@ -15,7 +17,12 @@
     --------------------------------------------------
     E   |   E1   |   E2   |   E3   |   E4   |   F5
  
-
+<ul>
+   <li>Second matrix shows the costs to get through the single route.</li>
+   <li>Going through route A1 costs 65</li>
+   <li>Going through route A2 costs 70 which is cheapet than going through B1</li>
+   <li>Comparison of costs is performed from root route (A1) till the final one(E5)</li>
+</ul>
             1          2         3         4        5
     -------------------------------------------------------
     A   |    65   |    70   |   144   |   117   |    56
