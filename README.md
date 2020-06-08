@@ -45,3 +45,11 @@
 </ul>
 
 <img src="images/routes.JPG">
+
+<ul>
+   <li>In console we receive the optimal path printed (green set from above example) that supplier has to go through to achieve min costs of goods transportation</li>
+   <li>We receive the Routes Matrix where ## stands for the route taken (green set)</li>
+   <li>We have also information on the total costs of transportation</li>
+</ul>
+
+<img src="images/console.JPG">
