@@ -23,6 +23,7 @@
    <li>Going through the route A1 costs 65</li>
    <li>Going through the route A2 costs 70 which is cheaper than going through B1</li>
    <li>This kind of costs comparison is performed at the end of each route starting from root route (A1) till the final one(E5)</li>
+   <li>The main purpose is to get from the start of A1 route to the end of F5 root at the lowest costs.</li>
 </ul>
 
             1          2         3         4        5
@@ -38,7 +39,9 @@
     E   |   150   |   139   |    54   |    98   |   146
 
 <ul>
-   <li>The main purpose is to get from the start of A1 route to the end of E5 root at the lowest costs.</li>
+   <li>Green set of routes costs in total</li>
+   <li>Red set of routes costs in total</li>
+   <li>Program compares costs of each possible sets and chooses the cheapest one (green)</li>
 </ul>
 
 <img src="images/routes.JPG">
