@@ -37,4 +37,8 @@
     -------------------------------------------------------
     E   |   150   |   139   |    54   |    98   |   146
 
+<ul>
+   <li>The main purpose is to get from the start of A1 route to the end of E5 root at the lowest costs.</li>
+</ul>
+
 <img src="images/routes.JPG">
