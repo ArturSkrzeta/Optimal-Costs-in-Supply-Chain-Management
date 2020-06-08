@@ -1,9 +1,9 @@
 <ul>
    <li>First matrix presents the names of Routes</li>
-   <li>Supplies starts from A1 and arrives to F5</li>
-   <li>There are 25 routes to get to the destination</li>
+   <li>Supplier starts from A1 and arrives to the destination at the end of F5 route</li>
+   <li>There are 25 available routes to get to the destination</li>
    <li>Which route will be taken, we can decide upon the cost of going through.</li>
-   <li>For oue needs we can assume that</li>
+   <li>For oue needs we assume that the cocsts consist of distance, road quality, paid segments, possible queues on country borders etc. </li>
 </ul>
 
             1         2        3        4       5
