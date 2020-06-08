@@ -40,6 +40,8 @@
     -------------------------------------------------------
     E   |   150   |   139   |    54   |    98   |   146
 
+<h3>Illustration</h3>
+
 <ul>
    <li>Green set of routes costs in totals: 65 + 70 + 105 + 123 + 89 + 68 + 59 + 98 + 146 = <b>823</b></li>
    <li>Red set of routes costs in totals: 65 + 140 + 52 + 51 + 130 + 94 + 54 + 98 + 146 = <b>830</b></li>
