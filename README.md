@@ -20,7 +20,7 @@
     E   |   E1   |   E2   |   E3   |   E4   |   F5
  
 <ul>
-   <li>Second matrix shows the costs to get through the single route.</li>
+   <li>Second matrix shows the costs of getting through the single route.</li>
    <li>Going through the route A1 costs 65</li>
    <li>Going through the route A2 costs 70 which is cheaper than going through B1</li>
    <li>This kind of costs comparison is performed at the end of each route starting from root route (A1) till the final one(E5)</li>
